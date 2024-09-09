@@ -1,4 +1,4 @@
-main {
+body {
   min-height: 100vh;
   width: 100%;
   display: flex;
@@ -7,6 +7,17 @@ main {
   align-items: center;
 }
 
-#inputTextToTranslate {
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+input {
   font-size: 32px;
+}
+
+label {
+  font-size: 24px;
+  font-weight: bold;
 }
